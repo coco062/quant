@@ -1,0 +1,17 @@
+{
+  "_说明": "填你的真实持仓，填完存盘。以后双击 run-portfolio.bat 就直接出结果，不用再手打。",
+  "_字段": "shares=持有数量(BTC 可填小数); cost=每股/每币的买入成本价(美元)，不知道就填 null，只是不算盈亏，其他分析照常",
+  "_代码写法": "美股直接写代码 AAPL / SPY / QQQ；比特币写 BTC-USD；以太坊 ETH-USD",
+
+  "positions": {
+    "SPY":     { "shares": 100,  "cost": 480.0 },
+    "QQQ":     { "shares": 50,   "cost": 420.0 },
+    "AAPL":    { "shares": 80,   "cost": 190.0 },
+    "BTC-USD": { "shares": 0.35, "cost": 62000.0 }
+  },
+
+  "cash": 0,
+  "benchmark": "SPY",
+  "start": "2023-01-01",
+  "risk_free": 0.04
+}

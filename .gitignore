@@ -1,0 +1,17 @@
+# ⚠️ 真实持仓，绝不提交 —— 本仓库是公开的
+holdings.json
+
+# 生成的报告
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
